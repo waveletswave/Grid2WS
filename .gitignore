@@ -1,0 +1,45 @@
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.env
+venv/
+env/
+
+# Spatial Data files (Never upload raw or processed data)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.gpkg
+*.tif
+*.tiff
+*.nc
+
+# Tabular Data
+*.csv
+*.xlsx
+*.txt
+*.dat
+
+# Output Figures and Documents
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+Grid2WS_Validation_Output/
+Final_Validation_Plots_PDF_v5/
+figures/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
